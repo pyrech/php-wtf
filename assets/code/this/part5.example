@@ -1,0 +1,11 @@
+class Foo {
+    function bar() {
+        $a = "this";
+        $$a = 42;
+        
+        var_dump($this);
+    }
+}
+
+$f = new Foo();
+$f->bar();

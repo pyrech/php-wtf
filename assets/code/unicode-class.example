@@ -1,0 +1,6 @@
+interface 🍚 {}
+interface 🐟 {}
+
+class 🍣 implements 🍚, 🐟 {
+
+}

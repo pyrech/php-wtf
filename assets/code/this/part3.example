@@ -1,0 +1,13 @@
+class Foo {
+    private $f = 'please, no!';
+
+    function bar() {
+        var_dump($this);
+        unset($this);
+        var_dump($this);
+        var_dump($this->f);
+    }
+}
+
+$f = new Foo();
+$f->bar();

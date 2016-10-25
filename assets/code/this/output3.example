@@ -1,0 +1,4 @@
+>> object(Foo)#1 (0) { }
+>> Notice: Undefined variable: this
+>> NULL
+>> 'please, no!'

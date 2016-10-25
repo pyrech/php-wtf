@@ -1,0 +1,10 @@
+function yolo() {
+    try {
+        return 'foo';
+    }
+    finally {
+        return 'bar';
+    }
+}
+
+echo yolo();

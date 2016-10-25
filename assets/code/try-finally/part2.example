@@ -1,0 +1,10 @@
+function yolo() {
+    try {
+        throw new Exception('yolo');
+    }
+    finally {
+        return 'bar';
+    }
+}
+
+echo yolo();

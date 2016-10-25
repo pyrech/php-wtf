@@ -1,0 +1,4 @@
+$refObject   = new ReflectionObject($event);
+$refProperty = $refObject->getProperty('name');
+$refProperty->setAccessible(true);
+$refProperty->setValue($event, 'hacked');

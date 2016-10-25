@@ -1,0 +1,12 @@
+// Compute parts of equation
+$√2π = sqrt(2 * $π);
+$⟮z ＋ g ＋½⟯ᶻ⁺½ = pow($z + $g + 0.5, $z + 0.5);
+$ℯ＾−⟮z ＋ g ＋½⟯ = exp(-($z + $g + 0.5));
+
+/**
+ * Put it all together:
+ *   __  /        1 \ z+½
+ *  √2π | z + g + -  |    e^-(z+g+½) A(z)
+ *       \        2 /
+ */
+return $√2π * $⟮z ＋ g ＋½⟯ᶻ⁺½ * $ℯ＾−⟮z ＋ g ＋½⟯ * $A⟮z⟯;

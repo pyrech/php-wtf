@@ -1,0 +1,7 @@
+define('foo（）', 'constant');
+
+function foo() {
+    return 'function';
+}
+
+echo foo（）;

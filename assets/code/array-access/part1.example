@@ -1,0 +1,3 @@
+$a = array();
+
+$a[new \stdClass()] = 42;
