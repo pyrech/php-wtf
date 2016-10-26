@@ -2,6 +2,8 @@
 
 This presentation has been created for the 2016 edition of Forum PHP and Blend Wed Mix.
 
+There is a [long version (15 min)](https://pyrech.github.io/php-wtf/) and a [short one (5 min)](https://pyrech.github.io/php-wtf/short).
+
 ## Topic
 
 Et si on se moquait (gentiment) des quelques WTF de notre langage préféré : comportement étrange de $this, immutabilité impossible et autres LOL en tout genre. Attention, tu risques quand même d'apprendre des choses sérieuses.

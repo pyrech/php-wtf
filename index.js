@@ -3,4 +3,5 @@ import { render } from "react-dom";
 
 import Presentation from "./presentation";
 
-render(<Presentation/>, document.getElementById("root"));
+const container = document.getElementById("root");
+render(<Presentation longVersion={container.getAttribute("data-long-version") === 'true'} />, container);
